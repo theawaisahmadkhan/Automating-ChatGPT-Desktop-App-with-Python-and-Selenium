@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+
 # Start a webdriver instance and open ChatGPT
 driver = webdriver.Chrome()
 driver.get('https://chatgpt.openai.com/')
